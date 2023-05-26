@@ -273,6 +273,7 @@ header .navbar ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 5rem;
 }
 
 
@@ -281,7 +282,7 @@ header .navbar ul li a:hover {
     background: #222;
     text-align: center;
     padding: 2rem;
-    margin: 2rem;
+    margin: 5rem;
 }
 
 
