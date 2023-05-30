@@ -39,7 +39,7 @@
 					<img src="foto-perfil.jpg" alt="profile pic">
 				</div>
 				<div class="hero-text">
-					<h5>Olá, eu sou <span class="">Desenvolvedor Backend</span></h5>
+					<h5>Olá, eu sou <span class="input">Desenvolvedor Backend Python e Java</span></h5>
 					<h1>Francisco Gomes</h1>
 					<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, quam!</p>
 					<div class="btn-group">
@@ -55,6 +55,8 @@
 			</div>
 		</div>
 	</div>
+	<!-- behavior JS typing text effect library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 	<script>
 		/** Creating button click behavior show hide navbar **/
 		var togglebtn=document.querySelector(".togglebtn");
@@ -64,6 +66,12 @@
 		togglebtn.addEventListener("click", function(){
 			this.classList.toggle("click");
 			nav.classList.toggle("open");
+		})
+
+		var typed=new Typed(".input",{
+			strings:["Entusiasta de Redes de Computadores", "Desenvolvedor Backend Python e Java"],
+			backSpeed:90,
+			loop:true
 		})
 	</script>	
 </body>
